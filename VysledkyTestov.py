@@ -13,7 +13,6 @@ import sys
 customtkinter.set_appearance_mode("white")
 customtkinter.set_default_color_theme("dark-blue")
 
-# Function to initialize the database connection.\venv\Scripts\activate
 def initialize_database_connection():
     try:
         selected_friendly_name = selected_db_name_var.get()
